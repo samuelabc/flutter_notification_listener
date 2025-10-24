@@ -1,6 +1,6 @@
 name: flutter_notification_listener_sam
 description:  Flutter plugin to listen for all incoming notifications for Android.
-version: 1.3.4
+version: 1.3.5
 homepage: https://github.com/samuelabc/flutter_notification_listener
 
 environment:
