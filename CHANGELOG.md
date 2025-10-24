@@ -1,3 +1,7 @@
+## 1.3.5
+
+- chore: rename package to flutter_notification_listener_sam
+
 ## 1.3.4
 
 - chore: support gradle plugin version
