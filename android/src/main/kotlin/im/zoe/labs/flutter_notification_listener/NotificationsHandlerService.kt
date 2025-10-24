@@ -1,4 +1,4 @@
-package im.zoe.labs.flutter_notification_listener
+package io.github.samuelabc.flutter_notification_listener
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel

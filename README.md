@@ -44,7 +44,7 @@ Then you should install it,
 The plugin uses an Android system service to track notifications. To allow this service to run on your application, the following code should be put inside the Android manifest, between the `application` tags.
 
 ```xml
-<service android:name="im.zoe.labs.flutter_notification_listener.NotificationsHandlerService"
+<service android:name="io.github.samuelabc.flutter_notification_listener.NotificationsHandlerService"
     android:label="Flutter Notifications Handler"
     android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
     <intent-filter>
@@ -111,7 +111,7 @@ It's every useful while you want to start listening notifications automatically 
 
 Register a broadcast receiver in the `AndroidManifest.xml`,
 ```xml
-<receiver android:name="im.zoe.labs.flutter_notification_listener.RebootBroadcastReceiver"
+<receiver android:name="io.github.samuelabc.flutter_notification_listener.RebootBroadcastReceiver"
     android:enabled="true">
     <intent-filter>
         <action android:name="android.intent.action.BOOT_COMPLETED" />
