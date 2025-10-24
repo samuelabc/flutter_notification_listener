@@ -4,7 +4,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:flutter_notification_listener/flutter_notification_listener.dart';
+import 'package:flutter_notification_listener_sam/flutter_notification_listener_sam.dart';
 
 void main() {
   runApp(MyApp());
